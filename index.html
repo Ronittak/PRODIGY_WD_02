@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <div id="main" class="flex flex-col gap-10">
+        <div id="nav" class="h-10 bg-gray-500 flex justify-center items-center text-white font-bold">Stopwatch</div>
+        <div id="display" class="w-full flex flex-col  items-center gap-5">
+            <div id="time" class=""><h1>00:00:00:00</h1></div>
+            <div id="controls" class="flex gap-4 mt-5 mb-5">
+                <div id="start" class="button" onclick="start()" >Start</div>
+                <div id="stop" class="button" onclick="stop()">Stop</div>
+                <div id="reset" class="button" onclick="reset()">Reset</div>
+                <div id="lap" class="button" onclick="lap()">Lap</div>
+            </div>
+            <div id="lapdisplay"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 223, 210);
+}
+#display{
+    min-height: 50vh;
+}
+#time h1{
+    font-size: 40px;
+}
+.button{
+    /* background-color: aqua; */
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+#start{
+    background-color: lightgreen;
+}
+#stop{
+    background-color: rgb(238, 144, 144);
+}
+#reset{
+    background-color: rgb(255, 238, 0);
+}
+#lap{
+    background-color: rgb(196, 216, 255);
+}
+/* rgb(255, 238, 0) */
